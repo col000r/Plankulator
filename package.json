@@ -1,0 +1,35 @@
+{
+  "name": "plankulator",
+  "version": "1.0.0",
+  "description": "A React application for optimizing woodworking cutting plans from 3D OBJ files",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --config vite.config.js --port 3000",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": ["woodworking", "cutting-plan", "3d-model", "obj-parser", "optimization", "react", "threejs"],
+  "author": "Markus Hofer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/col000r/Plankulator.git"
+  },
+  "homepage": "https://github.com/col000r/Plankulator#readme",
+  "bugs": {
+    "url": "https://github.com/col000r/Plankulator/issues"
+  },
+  "type": "commonjs",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "vite": "^7.1.1"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.6.1",
+    "@react-three/fiber": "^9.3.0",
+    "lucide-react": "^0.539.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "three": "^0.179.1"
+  }
+}
